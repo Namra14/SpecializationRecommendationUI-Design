@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Lato:wght@400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Lato:wght@400;700;900&family=Montserrat:wght@100;200;300;400;500&display=swap');
+
 
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Navbar*/
@@ -11,7 +13,7 @@
     margin-left: -100px; 
 }
 .nav-link{
-    font-weight: 500;
+      -weight: 500;
 }
 .nav-link::after{
     content: '';
@@ -176,7 +178,7 @@
 .paragraph{
   text-align: justify;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 30px;
 }
 .btn-button1 {
@@ -238,18 +240,20 @@
   color: #ffff;
   transition: 1s;
 }
-@media only screen and (max-width: 768px) {
-  #card {
-      padding: 2vh 0;
-  }
-  
-}
 
 #aboutimg{
+  margin-top: 50px;
   height: 500px;
   width: 350px;
   border-radius: 244px 244px 100px 100px;
   box-shadow: 0 50px 50px 50px #C8E4B2;
+}
+@media (max-width: 768px) {
+ #aboutimg{
+    position: static;
+    display: block;
+    margin: 0 auto;
+  }
 }
 /*Features*/
 #feature{
@@ -257,7 +261,107 @@
 }
 .custom-card {
   height: 300px;
+  background-color: #91C8E4;
+  border-radius: 5%;
+}
+.custom-card1 {
+  height: 300px;
+  background-color: #FBA1B7;
+  border-radius: 5%;
 }
 .custom-width {
-  width: 700px; /* Set your desired width here */
+  width: 700px;
+  background-color: #FFD9C0;
 }
+.custom-width1 {
+  width: 520px;
+  background-color: #E8FFCE;
+  text-align: left;
+}
+.custom-text{
+  font-weight: 700;
+  font-size: 35px;
+  margin-top: 30px;
+  text-align: left;
+}
+.custom-p{
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: -10px;
+}
+.custom-text1{
+  font-weight: 800;
+  font-size: 25px;
+  margin-top: 30px;
+  text-align: left;
+  
+}
+/*image logo designs */
+.custom-f1{
+  margin-top: -20px;
+  margin-right: -250px;
+  height: 120px;
+}
+.custom-f2{
+  margin-top: -40px;
+  margin-right: -450px;
+  height: 180px;
+  width: 250px;
+}
+.custom-f3{
+  margin-top: -10px;
+  margin-right: -480px;
+  height: 150px;
+  width: 150px;
+}
+.custom-f4{
+  margin-bottom: -90px;
+  margin-left: 350px;
+  height: 150px;
+  width: 150px;
+}
+
+/*feature buttons */
+.custom-a1{
+  margin-left: -50px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+}
+.custom-a2{
+  margin-right: 300px;
+  margin-top: -50px;
+  color: #FF8551;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+}
+.custom-a2:hover{
+  color: #FF8551;
+}
+.custom-a3{
+  margin-right: 100px;
+  margin-top: -50px;
+  color: #F11A7B;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+}
+.custom-a4{
+  margin-right: -500px;
+  margin-top: 10px;
+  color: #7A9D54;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+}
+.custom-a4:hover{
+  color: #7A9D54;
+}
+@media (max-width: 768px) {
+  .custom-width, .custom-width1, .custom-card, .custom-card1, .custom-f1, .custom-f2, .custom-f3, .custom-f4, .custom-a1, .custom-a2, .custom-a3, .custom-a4 {
+    width: auto;
+    height: auto;
+  }
+}
+/*Slider*/
