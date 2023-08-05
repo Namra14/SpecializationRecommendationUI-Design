@@ -244,7 +244,20 @@
   }
   
 }
+
+#aboutimg{
+  height: 500px;
+  width: 350px;
+  border-radius: 244px 244px 100px 100px;
+  box-shadow: 0 50px 50px 50px #C8E4B2;
+}
 /*Features*/
 #feature{
   font-weight: 700;
+}
+.custom-card {
+  height: 300px;
+}
+.custom-width {
+  width: 700px; /* Set your desired width here */
 }
