@@ -162,17 +162,7 @@
 #about{
   font-weight: 700;
 }
-#about::after{
-  content: '';
-  width: 0;
-  height: 2px;
-  background: #525FE1;
-  display: block;
-  transition: 0.3s linear;
-}
-#about:hover::after{
-  width: 80%;
-}
+
 #about:hover{
   color: #FF8551 !important;
 }
@@ -375,4 +365,78 @@
 .custom-org:hover{
   box-shadow: 0 0 50px #FF8551;
   transition: 0.5s;
+}
+
+
+
+/*Footer*/
+/*Input email for newsletter*/
+.subs{
+  font-size: 20px;
+  font-weight: 700;
+}
+.subsbtn{
+  background-color: #FF8551;
+  color: white;
+  border-radius: 50px;
+  margin-left: 20px;
+}
+.subsbtn:hover{
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+
+/*about us page*/
+#abcard{
+  width: 1100px;
+  height: 800px;
+  margin-bottom: 100px;
+  border-radius: 20px;
+  background-color: #EA906C;
+}
+.card-title{
+  margin-left: 50px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-weight: 800;
+  font-size: 25px;
+}
+.card-text{
+  margin-left: 30px;
+  font-weight: 400;
+  margin-bottom: 100px;
+}
+#smallcard{
+  width: 300px;
+  height: 140px;
+  margin-left: 60px;
+  border-radius: 25px;
+}
+.card-text1{
+  font-weight: 800;
+  font-size: 15px;
+}
+.card-text2{
+  font-weight: 700;
+  font-size: 30px;
+  color: #F11A7B;
+  margin-left: 20px;
+}
+.card-text3{
+  font-weight: 600;
+  margin-top: -10px;
+  font-size: 15px;
+  margin-left: 20px;
+}
+span{
+  color: #367E18;
+}
+/*Image of dean*/
+.dean{
+  display: flex;
+  justify-content: center;
+  height: 450px;
+  margin-left: 650px;
+  margin-top: -165px;
 }
