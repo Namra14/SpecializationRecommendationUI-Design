@@ -55,10 +55,12 @@
     font-size: 13px;
     margin-top: 90px;
     font-weight: 500;
+    width: 100%;
 }
 .container .h1{
     font-size: 50px;
     font-weight: 700;
+    width: 100%;
 }
 
 /*button*/
@@ -261,7 +263,7 @@
   border-radius: 5%;
 }
 .custom-width {
-  width: 700px;
+  width: 100%;
   background-color: #FFD9C0;
 }
 .custom-width1 {
@@ -297,7 +299,7 @@
   margin-top: -40px;
   margin-right: -450px;
   height: 180px;
-  width: 250px;
+
 }
 .custom-f3{
   margin-top: -10px;
@@ -468,4 +470,11 @@ span{
   }
   
 }
-
+/*video*/
+.custom-video {
+  display: block;
+  margin: 100px auto;
+  border-radius: 20px;
+  height: 500px;
+  width: 80%;
+}
