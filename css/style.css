@@ -478,3 +478,24 @@ span{
   height: 500px;
   width: 80%;
 }
+/*Gettingstarted card in about us*/
+#gscard{
+  width: 80%;
+  height: 250px;
+  margin-bottom: 5%;
+  margin-top: 10%;
+  border-radius: 20px;
+  background-color: #F94C10;
+}
+.gs{
+  font-size: 50px;
+  color: white;
+  font-weight: 700;
+}
+.signin{
+  width: 30%;
+}
+.signin:hover{
+  background-color: black;
+  transition: 0.5s;
+}
